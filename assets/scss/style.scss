@@ -1,0 +1,24 @@
+.jet-star-rating-block {
+	max-width: 100%;
+	&__wrap {
+		display: inline-block;
+		position: relative;
+		max-width: 100%;
+	}
+	&__rating {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	&__scale,
+	&__rating {
+		max-width: 100%;
+		display: flex;
+		svg {
+			flex: 0 1 auto;
+		}
+	}
+}

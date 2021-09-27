@@ -1,0 +1,39 @@
+{
+	"name": "jet-blocks/star-rating",
+	"title": "Star Rating",
+	"icon": "star-empty",
+	"category": "widgets",
+	"attributes": {
+		"scale": {
+			"type": "number",
+			"default": 5
+		},
+		"rating": {
+			"type": "number",
+			"default": 5
+		},
+		"type": {
+			"type": "string",
+			"default": "type-1"
+		},
+		"size": {
+			"type": "number",
+			"default": 24
+		},
+		"space": {
+			"type": "number",
+			"default": 3
+		},
+		"color": {
+			"type": "string",
+			"default": "#fcb900"
+		},
+		"scaleColor": {
+			"type": "string",
+			"default": "#abb8c3"
+		}
+	},
+	"editorScript": "jet-star-rating-block-editor",
+	"editorStyle": "jet-star-rating-block-editor",
+	"style": "jet-star-rating-block"
+}

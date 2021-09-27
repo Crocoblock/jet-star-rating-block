@@ -1,0 +1,39 @@
+.jet-star-rating-picker {
+	&__root {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 7px 0;
+	}
+	&__item {
+		position: relative;
+		border: 1px solid #e0e0e0;
+		width: 56px;
+		height: 56px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 3px 3px 0;
+		cursor: pointer;
+		&:hover,
+		&--selected {
+			border-color: #1e1e1e;
+			z-index: 10;
+			box-shadow: 0 0 0 1px #1e1e1e inset;
+		}
+	}
+}
+
+.jet-star-rating-num {
+	.components-base-control__field {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		padding: 0 10px;
+		.components-base-control__label {
+			margin: 0 6px 0 0;
+		}
+		.components-text-control__input {
+			width: 65px;
+		}
+	}
+}
