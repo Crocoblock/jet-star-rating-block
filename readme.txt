@@ -1,5 +1,5 @@
 === Star Rating Block ===
-Contributors:      ibachal
+Contributors:      crocoblock
 Tags:              block, star rating block, gutenberg rating, review
 Requires at least: 5.3.2
 Tested up to:      5.8.0
